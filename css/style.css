@@ -1,0 +1,113 @@
+/* Apply a global reset for default margin and padding */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a consistent box-sizing for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #2ecc71; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff; 
+}
+
+/* Header styling */
+#header {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Form styling */
+#convert {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    text-align: center;
+    color: #d9ff00; 
+}
+
+/* Input styling */
+#convert label {
+    display: block;
+    margin-bottom: 10px;
+    color: #d9ff00; 
+}
+
+#convert input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff; 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: #fff; 
+}
+
+/* Button styling */
+#convert button {
+    background-color: #3498db; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#convert button:hover {
+    background-color: #2980b9; 
+}
+
+/* Results styling */
+#results {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    color: #fff; 
+}
+
+/* Base styling */
+.base {
+    margin-top: 20px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    #convert {
+        max-width: 90%;
+    }
+    #results {
+        max-width: 95%;
+    }
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 5px;
+        font-size: 12px;
+        position: static;
+        width: 100%;
+    }
+}

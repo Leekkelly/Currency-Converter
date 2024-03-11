@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <script src="js/axios.min.js"></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to Currency Converter</h1>
+        <h2>Where you can check the updated exchange rates for today!</h2>
+    </div>
+
+    <form id="convert">
+        <label for="amount">Input amount:</label>
+        <input type="text" id="amount">
+        <label for="currencies">From currency: </label>
+        <input type="text" id="currencies" placeholder="Please enter the currency code">
+        <label for="exchangeCurrencies">exchange to:</label>
+        <input type="text" id="exchangeCurrencies" placeholder="Please enter the currency code">
+        <button>Convert Now</button>
+    </form>
+    
+    <div id="results"></div>
+    
+</body>
+<footer>
+    <p>This app is using Frankfurter API for code training purposes</p>
+</footer>
+</html>
